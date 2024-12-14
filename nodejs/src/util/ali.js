@@ -1,1 +1,507 @@
-function _0x4aa5(_0x48caa3,_0x315644){const _0x2164f9=_0x574f();return _0x4aa5=function(_0x5e2b05,_0x179281){_0x5e2b05=_0x5e2b05-0x164;let _0x164327=_0x2164f9[_0x5e2b05];return _0x164327;},_0x4aa5(_0x48caa3,_0x315644);}(function(_0x5f4666,_0x55a733){const _0x4589e5=_0x4aa5,_0xd355a0=_0x5f4666();while(!![]){try{const _0x1e1fc1=-parseInt(_0x4589e5(0x174))/0x1+-parseInt(_0x4589e5(0x168))/0x2+-parseInt(_0x4589e5(0x167))/0x3+parseInt(_0x4589e5(0x17e))/0x4*(parseInt(_0x4589e5(0x17b))/0x5)+parseInt(_0x4589e5(0x164))/0x6+parseInt(_0x4589e5(0x16c))/0x7+parseInt(_0x4589e5(0x181))/0x8*(-parseInt(_0x4589e5(0x177))/0x9);if(_0x1e1fc1===_0x55a733)break;else _0xd355a0['push'](_0xd355a0['shift']());}catch(_0x265350){_0xd355a0['push'](_0xd355a0['shift']());}}}(_0x574f,0x20821));const _0x179281=(function(){let _0x4eda66=!![];return function(_0x55af6d,_0x22e5f4){const _0x4a4b00=_0x4eda66?function(){const _0x5ab790=_0x4aa5;if(_0x22e5f4){const _0x1659b9=_0x22e5f4[_0x5ab790(0x169)](_0x55af6d,arguments);return _0x22e5f4=null,_0x1659b9;}}:function(){};return _0x4eda66=![],_0x4a4b00;};}()),_0x5e2b05=_0x179281(this,function(){const _0x11faca=_0x4aa5;let _0x2fa19b;try{const _0x3ff2b9=Function('return\x20(fu'+'nction()\x20'+(_0x11faca(0x16a)+_0x11faca(0x176)+_0x11faca(0x17a)+'\x20)')+');');_0x2fa19b=_0x3ff2b9();}catch(_0x25b157){_0x2fa19b=window;}const _0x3c5f06=_0x2fa19b['console']=_0x2fa19b['console']||{},_0x39a2bd=[_0x11faca(0x16e),_0x11faca(0x17d),'info','error',_0x11faca(0x17f),_0x11faca(0x183),'trace'];for(let _0x3fb5be=0x0;_0x3fb5be<_0x39a2bd[_0x11faca(0x173)];_0x3fb5be++){const _0x47f835=_0x179281[_0x11faca(0x16f)+'r'][_0x11faca(0x165)][_0x11faca(0x175)](_0x179281),_0xdc762c=_0x39a2bd[_0x3fb5be],_0x525bd5=_0x3c5f06[_0xdc762c]||_0x47f835;_0x47f835['__proto__']=_0x179281['bind'](_0x179281),_0x47f835[_0x11faca(0x172)]=_0x525bd5[_0x11faca(0x172)]['bind'](_0x525bd5),_0x3c5f06[_0xdc762c]=_0x47f835;}});_0x5e2b05();import{_}from'assets://js/lib/cat.js';import{initSome,setToken,getVod,playerContent,playerContentByFlag}from'./ali_api.js';const aliPattern=/(www.aliyundrive.com|www.alipan.com)\/s\/([^\/]+)(\/folder\/([^\/]+))?/;async function initAli(_0x413000){await initSome(),setToken(_0x413000);}async function detailContent(_0x4bc326){const _0x1a33eb=_0x4aa5;let _0x54bbc1=_0x4bc326['match'](aliPattern),_0x7888de=await parseVod(_0x54bbc1,_0x4bc326);const _0x9e9dd1={};_0x9e9dd1[_0x1a33eb(0x178)]=[_0x7888de];let _0x197b45=JSON['stringify'](_0x9e9dd1);return _0x197b45;}async function parseVod(_0x10689f,_0x1108c0){if(_['isEmpty'](_0x10689f))return{};let _0x474eae=_0x10689f[0x2],_0x36fe63=_0x10689f['length']>0x4?_0x10689f[0x4]:'';return await getVod(_0x474eae,_0x1108c0,_0x36fe63);}async function playContent(_0x52c526,_0x421b73,_0x4f10f8){const _0x3b573d=_0x4aa5;let _0x4fe837=_0x421b73['split']('+');_0x52c526=_0x52c526['split']('#')[0x0];let _0x2e68e0=_0x52c526=='原画'?await playerContent(_0x4fe837):await playerContentByFlag(_0x4fe837,_0x52c526);return console[_0x3b573d(0x186)](_0x3b573d(0x16b)+_0x3b573d(0x17c)+_0x3b573d(0x185)),console[_0x3b573d(0x186)](_0x2e68e0),_0x2e68e0;}function _0x574f(){const _0x44da7e=['prototype','isEmpty','374088ntufPj','121556CEjSKd','apply','{}.constru','-----playC','1731275IhHZho','vod_play_u','log','constructo','match','普画#','toString','length','125186RUUvVq','bind','ctor(\x22retu','3744KZBwKz','list','原画#','rn\x20this\x22)(','577405PyhvtD','ontent----','warn','4TSKBsq','exception','push','2832JFmsUo','join','table','$$$','---','debug','1369626tULFbE'];_0x574f=function(){return _0x44da7e;};return _0x574f();}function detailContentVodPlayFrom(_0xbe55e7){const _0x3fa4bc=_0x4aa5;let _0x305855=[];if(_0xbe55e7[_0x3fa4bc(0x173)]<0x2)return['原画','普画'][_0x3fa4bc(0x182)](_0x3fa4bc(0x184));for(let _0x241caf=0x1;_0x241caf<=_0xbe55e7[_0x3fa4bc(0x173)];_0x241caf++){_0x305855['push'](_0x3fa4bc(0x179)+_0x241caf),_0x305855[_0x3fa4bc(0x180)](_0x3fa4bc(0x171)+_0x241caf);}return _0x305855[_0x3fa4bc(0x182)](_0x3fa4bc(0x184));}async function detailContentVodPlayUrl(_0x2b2389){const _0x3ba1ef=_0x4aa5;let _0x2f0a10=[];for(var _0x954556 of _0x2b2389){let _0x5a95a4=_0x954556[_0x3ba1ef(0x170)](aliPattern);if(!_[_0x3ba1ef(0x166)](_0x5a95a4)){let _0x139a04=await parseVod(_0x5a95a4,_0x954556);_0x2f0a10['push'](_0x139a04[_0x3ba1ef(0x16d)+'rl']);}}return _0x2f0a10[_0x3ba1ef(0x182)](_0x3ba1ef(0x184));}export{initAli,detailContent,playContent,detailContentVodPlayFrom,detailContentVodPlayUrl,aliPattern};
+import dayjs from 'dayjs';
+import CryptoJS from 'crypto-js';
+import { IOS_UA, formatPlayUrl, conversion, isEmpty, lcs, findBestLCS, delay} from './misc.js';
+import req from './req.js';
+import * as HLS from 'hls-parser';
+
+// https://www.alipan.com/s/8stgXuDFsLy
+export function getShareData(url) {
+    let regex = /https:\/\/www\.alipan\.com\/s\/([^\\/]+)(\/folder\/([^\\/]+))?|https:\/\/www\.aliyundrive\.com\/s\/([^\\/]+)(\/folder\/([^\\/]+))?/;
+    let matches = regex.exec(url);
+    if (matches) {
+        return {
+            shareId: matches[1] || matches[4],
+            folderId: matches[3] || matches[6] || 'root',
+        };
+    }
+    return null;
+}
+
+const apiUrl = 'https://api.aliyundrive.com';
+const openApiUrl = 'https://open.aliyundrive.com/adrive/v1.0';
+
+let config = null;
+const shareTokenCache = {};
+let user = {};
+let oauth = {};
+let oriCfg = {};
+let localDb = null;
+const localTokenPath = '/alipan/tokens';
+const saveDirName = 'CatVodOpen';
+let saveDirId = null;
+
+const baseHeaders = {
+    'User-Agent': IOS_UA,
+    Referer: 'https://www.aliyundrive.com/',
+};
+
+export async function initAli(db, cfg) {
+    if (config) return;
+    localDb = db;
+    oriCfg = cfg;
+    config = cfg;
+    const localCfg = await db.getObjectDefault(localTokenPath, {});
+    if (localCfg[oriCfg.token]) {
+        config.token = localCfg[oriCfg.token];
+    }
+    if (localCfg[oriCfg.token280]) {
+        config.token280 = localCfg[oriCfg.token280];
+    }
+}
+
+async function api(url, data, headers, retry) {
+    headers = headers || {};
+    const auth = url.startsWith('adrive/');
+    Object.assign(headers, baseHeaders);
+    if (auth) {
+        Object.assign(headers, {
+            Authorization: user.auth,
+        });
+    }
+
+    const resp = await req
+        .post(`${apiUrl}/${url}`, data, {
+            headers: headers,
+        })
+        .catch((err) => {
+            console.error(err);
+            return err.response || { status: 500, data: {} };
+        });
+    const leftRetry = retry || 3;
+    if (resp.status === 429 && leftRetry > 0) {
+        await delay(1000);
+        return await api(url, data, headers, leftRetry - 1);
+    }
+    return resp.data || {};
+}
+
+async function openApi(url, data, headers, retry) {
+    headers = headers || {};
+    Object.assign(headers, {
+        Authorization: oauth.auth,
+    });
+    const resp = await req
+        .post(`${openApiUrl}/${url}`, data, {
+            headers: headers,
+        })
+        .catch((err) => {
+            console.error(err);
+            return err.response || { status: 500, data: {} };
+        });
+    const leftRetry = retry || 3;
+    if (resp.status === 429 && leftRetry > 0) {
+        await delay(1000);
+        return await openApi(url, data, headers, leftRetry - 1);
+    }
+    return resp.data || {};
+}
+
+async function login() {
+    if (!user.user_id || user.expire_time - dayjs().unix() < 120) {
+        let loginResp = await req
+            .post(
+                'https://auth.aliyundrive.com/v2/account/token',
+                {
+                    refresh_token: config.token,
+                    grant_type: 'refresh_token',
+                },
+                { headers: baseHeaders }
+            )
+            .catch((err) => {
+                return err.response || { status: 500, data: {} };
+            });
+        if (loginResp.status == 200) {
+            user = loginResp.data;
+            user.expire_time = dayjs(loginResp.data.expire_time).unix();
+            user.auth = `${user.token_type} ${user.access_token}`;
+            config.token = user.refresh_token;
+            await localDb.push(localTokenPath + '/' + oriCfg.token, user.refresh_token);
+        }
+    }
+}
+
+// 兼容alist280, webdav280处理
+async function openAuth() {
+    if (!oauth.access_token || oauth.expire_time - dayjs().unix() < 120) {
+        let openResp = await req.post('https://aliyundrive-oauth.messense.me/oauth/access_token',{
+            grant_type: 'refresh_token', 
+            refresh_token: config.token280,
+        }, {
+            headers: baseHeaders,
+        },).catch((err) => {return err.response || { status: 500, data: {} };});
+
+        if (openResp.status != 200) {
+            openResp = await req.post('https://api.xhofe.top/alist/ali_open/token',{
+                grant_type: 'refresh_token', 
+                refresh_token: config.token280,
+            }, {
+                headers: baseHeaders,
+            },).catch((err) => {return err.response || { status: 500, data: {} };});
+        }
+
+        if (openResp.status == 200) {
+            oauth = openResp.data;
+            const info = JSON.parse(CryptoJS.enc.Base64.parse(openResp.data.access_token.split('.')[1]).toString(CryptoJS.enc.Utf8));
+            oauth.expire_time = info.exp;
+            oauth.auth = `${oauth.token_type} ${oauth.access_token}`;
+            config.token280 = oauth.refresh_token;
+            await localDb.push(localTokenPath + '/' + oriCfg.token280, oauth.refresh_token);
+        }
+    }
+}
+
+async function clearSaveDir() {
+    const listData = await openApi(`openFile/list`, {
+        drive_id: user.drive.resource_drive_id,
+        parent_file_id: saveDirId,
+        limit: 100,
+        order_by: 'updated_at',
+        order_direction: 'DESC',
+    });
+    if (listData.items) {
+        for (const item of listData.items) {
+            const del = await openApi(`openFile/delete`, {
+                drive_id: user.drive.resource_drive_id,
+                file_id: item.file_id,
+            });
+            console.log(del);
+        }
+    }
+}
+
+async function createSaveDir(clean) {
+    if (!user.device_id) return;
+    if (saveDirId) {
+        // 删除所有子文件
+        if (clean) await clearSaveDir();
+        return;
+    }
+    let driveInfo = await openApi(`user/getDriveInfo`, {});
+    if (driveInfo.resource_drive_id) {
+        user.drive = driveInfo;
+        const resource_drive_id = driveInfo.resource_drive_id;
+        const listData = await openApi(`openFile/list`, {
+            drive_id: resource_drive_id,
+            parent_file_id: 'root',
+            limit: 100,
+            order_by: 'updated_at',
+            order_direction: 'DESC',
+        });
+        if (listData.items) {
+            for (const item of listData.items) {
+                if (item.name === saveDirName) {
+                    saveDirId = item.file_id;
+                    await clearSaveDir();
+                    break;
+                }
+            }
+            if (!saveDirId) {
+                const create = await openApi(`openFile/create`, {
+                    check_name_mode: 'refuse',
+                    drive_id: resource_drive_id,
+                    name: saveDirName,
+                    parent_file_id: 'root',
+                    type: 'folder',
+                });
+                console.log(create);
+                if (create.file_id) {
+                    saveDirId = create.file_id;
+                }
+            }
+        }
+    }
+}
+
+async function getShareToken(shareData) {
+    if (!shareTokenCache[shareData.shareId] || shareTokenCache[shareData.shareId].expire_time - dayjs().unix() < 120) {
+        delete shareTokenCache[shareData.shareId];
+        const shareToken = await api(`v2/share_link/get_share_token`, {
+            share_id: shareData.shareId,
+            share_pwd: shareData.sharePwd || '',
+        });
+        if (shareToken.expire_time) {
+            shareToken.expire_time = dayjs(shareToken.expire_time).unix();
+            shareTokenCache[shareData.shareId] = shareToken;
+        }
+    }
+}
+
+const subtitleExts = ['srt', 'ass', 'scc', 'stl', 'ttml'];
+
+export async function getFilesByShareUrl(shareInfo) {
+    const shareData = typeof shareInfo === 'string' ? getShareData(shareInfo) : shareInfo;
+    if (!shareData) return [];
+    await getShareToken(shareData);
+    if (!shareTokenCache[shareData.shareId]) return [];
+
+    const videos = [];
+    const subtitles = [];
+    const listFile = async function (shareId, folderId, nextMarker) {
+        const listData = await api(
+            `adrive/v2/file/list_by_share`,
+            {
+                share_id: shareId,
+                parent_file_id: folderId,
+                limit: 200,
+                order_by: 'name',
+                order_direction: 'ASC',
+                marker: nextMarker || '',
+            },
+            {
+                'X-Share-Token': shareTokenCache[shareId].share_token,
+            }
+        );
+
+        const items = listData.items;
+        if (!items) return [];
+
+        if (listData.next_marker) {
+            const nextItems = await listFile(shareId, folderId, listData.next_marker);
+            for (const item of nextItems) {
+                items.push(item);
+            }
+        }
+
+        const subDir = [];
+
+        for (const item of items) {
+            if (item.type === 'folder') {
+                subDir.push(item);
+            } else if (item.type === 'file' && item.category === 'video') {
+                if (item.size < 1024 * 1024 * 5) continue;
+                item.name = item.name.replace(/玩偶哥.*【神秘的哥哥们】/g, '');
+                videos.push(item);
+            } else if (item.type === 'file' && subtitleExts.some((x) => item.file_extension.endsWith(x))) {
+                subtitles.push(item);
+            }
+        }
+
+        for (const dir of subDir) {
+            const subItems = await listFile(dir.share_id, dir.file_id);
+            for (const item of subItems) {
+                items.push(item);
+            }
+        }
+
+        return items;
+    };
+    await listFile(shareData.shareId, shareData.folderId);
+    if (subtitles.length > 0) {
+        videos.forEach((item) => {
+            var matchSubtitle = findBestLCS(item, subtitles);
+            if (matchSubtitle.bestMatch) {
+                item.subtitle = matchSubtitle.bestMatch.target;
+            }
+        });
+    }
+
+    return videos;
+}
+
+const saveFileIdCaches = {};
+
+async function save(shareId, fileId, clean) {
+    await login();
+    await openAuth();
+    await createSaveDir(clean);
+    if (clean) {
+        const saves = Object.keys(saveFileIdCaches);
+        for (const save of saves) {
+            delete saveFileIdCaches[save];
+        }
+    }
+    if (!saveDirId) return null;
+    await getShareToken({
+        shareId: shareId,
+    });
+    if (!shareTokenCache[shareId]) return null;
+
+    const saveResult = await api(
+        `adrive/v2/file/copy`,
+        {
+            file_id: fileId,
+            share_id: shareId,
+            auto_rename: true,
+            to_parent_file_id: saveDirId,
+            to_drive_id: user.drive.resource_drive_id,
+        },
+        {
+            'X-Share-Token': shareTokenCache[shareId].share_token,
+        }
+    );
+    if (saveResult.file_id) return saveResult.file_id;
+    return false;
+}
+
+export async function getLiveTranscoding(shareId, fileId) {
+    if (!saveFileIdCaches[fileId]) {
+        const saveFileId = await save(shareId, fileId, true);
+        if (!saveFileId) return null;
+        saveFileIdCaches[fileId] = saveFileId;
+    }
+    const transcoding = await openApi(`openFile/getVideoPreviewPlayInfo`, {
+        file_id: saveFileIdCaches[fileId],
+        drive_id: user.drive.resource_drive_id,
+        category: 'live_transcoding',
+        url_expire_sec: '14400',
+    });
+    /*if (transcoding.video_preview_play_info && transcoding.video_preview_play_info.live_transcoding_task_list) {
+        return transcoding.video_preview_play_info.live_transcoding_task_list;*/
+    const playInfo = transcoding?.video_preview_play_info;
+    return playInfo?.quick_video_list ?? playInfo?.live_transcoding_task_list;
+}
+
+export async function getDownload(shareId, fileId) {
+    if (!saveFileIdCaches[fileId]) {
+        const saveFileId = await save(shareId, fileId, true);
+        if (!saveFileId) return null;
+        saveFileIdCaches[fileId] = saveFileId;
+    }
+    const down = await openApi(`openFile/getDownloadUrl`, {
+        file_id: saveFileIdCaches[fileId],
+        drive_id: user.drive.resource_drive_id,
+    });
+    if (down.url) {
+        return down;
+    }
+    return null;
+}
+
+export async function detail(shareUrl) {
+    if (shareUrl.includes('https://www.alipan.com')) {
+        const shareData = getShareData(shareUrl);
+        const result = {};
+        if (shareData) {
+            const videos = await getFilesByShareUrl(shareData);
+            if (videos.length > 0) {
+                result.from = '阿里云盘-' + shareData.shareId;
+                result.url = videos
+                        .map((v) => {
+                            const ids = [v.share_id, v.file_id, v.subtitle ? v.subtitle.file_id : ''];
+                            const size = conversion(v.size);
+                            return formatPlayUrl('', ` ${v.name.replace(/.[^.]+$/,'')}  [${size}]`) + '$' + ids.join('*');
+                        })
+                        .join('#')
+            }
+        }
+        return result;
+    }                
+}
+
+const aliTranscodingCache = {};
+const aliDownloadingCache = {};
+
+export async function proxy(inReq, outResp) {
+    const site = inReq.params.site;
+    const what = inReq.params.what;
+    const shareId = inReq.params.shareId;
+    const fileId = inReq.params.fileId;
+    if (site == 'ali') {
+        let downUrl = '';
+        const flag = inReq.params.flag;
+        const end = inReq.params.end;
+        if (what == 'trans') {
+            if (aliTranscodingCache[fileId]) {
+                const purl = aliTranscodingCache[fileId].filter((t) => t.template_id.toLowerCase() == flag)[0].url;
+                if (parseInt(purl.match(/x-oss-expires=(\d+)/)[1]) - dayjs().unix() < 15) {
+                    delete aliTranscodingCache[fileId];
+                }
+            }
+
+            if (aliTranscodingCache[fileId] && end.endsWith('.ts')) {
+                const transcoding = aliTranscodingCache[fileId].filter((t) => t.template_id.toLowerCase() == flag)[0];
+                if (transcoding.plist) {
+                    const tsurl = transcoding.plist.segments[parseInt(end.replace('.ts', ''))].suri;
+                    if (parseInt(tsurl.match(/x-oss-expires=(\d+)/)[1]) - dayjs().unix() < 15) {
+                        delete aliTranscodingCache[fileId];
+                    }
+                }
+            }
+
+            if (!aliTranscodingCache[fileId]) {
+                const transcoding = await getLiveTranscoding(shareId, fileId);
+                aliTranscodingCache[fileId] = transcoding;
+            }
+
+            const transcoding = aliTranscodingCache[fileId].filter((t) => t.template_id.toLowerCase() == flag)[0];
+            if (!transcoding.plist) {
+                const resp = await req.get(transcoding.url, {
+                    headers: {
+                        'User-Agent': IOS_UA,
+                    },
+                });
+                transcoding.plist = HLS.parse(resp.data);
+                for (const s of transcoding.plist.segments) {
+                    if (!s.uri.startsWith('http')) {
+                        s.uri = new URL(s.uri, transcoding.url).toString();
+                    }
+                    s.suri = s.uri;
+                    s.uri = s.mediaSequenceNumber.toString() + '.ts';
+                }
+            }
+
+            if (end.endsWith('.ts')) {
+                outResp.redirect(transcoding.plist.segments[parseInt(end.replace('.ts', ''))].suri);
+                return;
+            } else {
+                const hls = HLS.stringify(transcoding.plist);
+                let hlsHeaders = {
+                    'content-type': 'audio/x-mpegurl',
+                    'content-length': hls.length.toString(),
+                };
+                outResp.code(200).headers(hlsHeaders);
+                return hls;
+            }
+        } else {
+            if (aliDownloadingCache[fileId]) {
+                const purl = aliDownloadingCache[fileId].url;
+                if (parseInt(purl.match(/x-oss-expires=(\d+)/)[1]) - dayjs().unix() < 15) {
+                    delete aliDownloadingCache[fileId];
+                }
+            }
+            if (!aliDownloadingCache[fileId]) {
+                const down = await getDownload(shareId, fileId);
+                aliDownloadingCache[fileId] = down;
+            }
+            downUrl = aliDownloadingCache[fileId].url;
+            if (flag == 'redirect') {
+                outResp.redirect(downUrl);
+                return;
+            }
+        }
+    }
+}
+
+export async function play(inReq, outResp) {
+    const flag = inReq.body.flag;
+    const id = inReq.body.id;
+    const ids = id.split('*');
+    let idx = 0;
+    if (flag.startsWith('阿里云盘')) {
+        const transcoding = await getLiveTranscoding(ids[0], ids[1]);
+        aliTranscodingCache[ids[1]] = transcoding;
+        transcoding.sort((a, b) => b.template_width - a.template_width);
+        const p= ['超清','高清','标清','普画','极速'];
+        const arr =['QHD','FHD','HD','SD','LD'];
+        const urls = [];
+        const proxyUrl = inReq.server.address().url + inReq.server.prefix + '/proxy/ali';
+        urls.push('原画');
+        urls.push(`${proxyUrl}/src/redirect/${ids[0]}/${ids[1]}/.bin`);
+        const result = {
+            parse: 0,
+            url: urls,
+        };
+        if (ids[2]) {
+            result.extra = {
+                subt: `${proxyUrl}/src/subt/${ids[0]}/${ids[2]}/.bin`,
+            };
+        }
+        transcoding.forEach((t) => {
+            idx = arr.indexOf(t.template_id);
+            urls.push(p[idx]);
+            urls.push(`${proxyUrl}/trans/${t.template_id.toLowerCase()}/${ids[0]}/${ids[1]}/.m3u8`);
+        });
+        return result;
+    }
+}
+
