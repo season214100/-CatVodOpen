@@ -15,7 +15,7 @@ async function request(reqUrl) {
 
 async function home(_inReq, _outResp) {
     let fiters = '';
-    let classes = [{'type_id':'1','type_name':'电影'},{'type_id':'2','type_name':'剧集'},{'type_id':'3','type_name':'综艺'},{'type_id':'4','type_name':'动漫'},{'type_id':'5','type_name':'短剧'}];
+    let classes = [{'type_id':'1','type_name':'电影'},{'type_id':'2','type_name':'剧集'},{'type_id':'3','type_name':'综艺'},{'type_id':'4','type_name':'动漫'},{'type_id':'6','type_name':'短剧'}];
     let filterObj = {};
     return({
         class: classes,
