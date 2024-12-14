@@ -5,7 +5,7 @@ import { load } from 'cheerio';
 import Crypto from 'crypto-js';
 import dayjs from 'dayjs';
 
-let siteUrl = 'https://m.360ba.co/';
+let siteUrl = 'https://www.360ba5.live/';
 let headers = {
     'User-Agent': 'Mozilla/5.0 (Linux; Android 12; Redmi K30 Build/SKQ1.210908.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36',
     'Referer': siteUrl,
