@@ -156,7 +156,7 @@ async function search(inReq, _outResp) {
 
 export default {
     meta: {
-        key: 'ouge',
+        key: 'feimao',
         name: '🟢 肥猫',
         type: 3,
     },
