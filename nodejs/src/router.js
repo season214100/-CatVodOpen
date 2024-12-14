@@ -29,7 +29,10 @@ import huya from './spider/video/huya.js';
 import douyu from './spider/video/douyu.js';
 import bili from './spider/video/bili.js';
 import clicli from './spider/video/clicli.js';
+import _360ba from './spider/video/_360ba.js';
+import m3u8cj from './spider/video/m3u8cj.js';
 import appys from './spider/video/appys.js';
+import maiyoux from './spider/video/maiyoux.js';
 import push from './spider/video/push.js';
 import baseset from './spider/video/baseset.js';
 import alist from './spider/pan/alist.js';
@@ -45,8 +48,9 @@ import coco from './spider/book/coco.js';
 
 
 
-const spiders = [douban,live,wogg,mogg,lbpp,feimao,duoduo,xiaomi,ouge,liuqu,zhizhen,xiaoya,yunpanres,xzys,meijumi,czzy,subaibai,hezi,ikanbot,nangua,ttian,zxzj,ddys,nongmin,rrys,klm,cntv,huya,douyu,bili,clicli,appys,push, baseset, alist, _13bqg, laobaigs,ts230,bookan, copymanga,bg,fengche,baozimh,coco];
+const spiders = [douban,live,wogg,mogg,lbpp,feimao,duoduo,xiaomi,ouge,liuqu,zhizhen,xiaoya,yunpanres,xzys,meijumi,czzy,subaibai,hezi,ikanbot,nangua,ttian,zxzj,ddys,nongmin,rrys,klm,cntv,huya,douyu,bili,clicli,_360ba,m3u8cj,appys,maiyoux, push, baseset, alist, _13bqg, laobaigs,ts230,bookan, copymanga,bg,fengche,baozimh,coco];
 const spiderPrefix = '/spider';
+
 
 /**
  * A function to initialize the router.
