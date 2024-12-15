@@ -4,7 +4,7 @@ import wogg from './spider/video/wogg.js';
 import mogg from './spider/video/mogg.js';
 import lbpp from './spider/video/lbpp.js';
 import feimao from './spider/video/feimao.js';
-import feimao from './spider/video/tudou.js';
+import tudou from './spider/video/tudou.js';
 import xiaoya from './spider/video/xiaoya.js';
 import duoduo from './spider/video/duoduo.js';
 import xiaomi from './spider/video/xiaomi.js';
