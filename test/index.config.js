@@ -16,76 +16,294 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// src/index.config.js
-var index_config_exports = {};
-__export(index_config_exports, {
-  default: () => index_config_default
+// src/index.config.base.js
+var index_config_base_exports = {};
+__export(index_config_base_exports, {
+  default: () => index_config_base_default
 });
-module.exports = __toCommonJS(index_config_exports);
-var index_config_default = {
+module.exports = __toCommonJS(index_config_base_exports);
+var index_config_base_default = {
+  //推荐
+  likes: true,
+  //后缀
+  suffix: true,
+  //排序
+  order: ["quark", "uc", "pan123", "tyi", "yd", "ali", "y115"],
+  //网盘
+  uc: {
+    enable: true,
+    prefix: "UC",
+    cookie: "",
+    token: ""
+  },
+  yd: {
+    enable: true,
+    prefix: "YD"
+  },
   ali: {
-    token: "",
-    token280: "token280"
+    enable: true,
+    prefix: "Ali",
+    token: ""
+  },
+  tyi: {
+    enable: true,
+    prefix: "TY",
+    username: "",
+    password: ""
   },
   quark: {
+    enable: true,
+    prefix: "Quark",
     cookie: ""
-  },
-  uc: {
-    cookie: "cookie",
-    token: "token",
-    ut: "ut"
   },
   y115: {
+    enable: true,
+    prefix: "115",
     cookie: ""
+  },
+  pan123: {
+    enable: true,
+    prefix: "123",
+    username: "",
+    password: ""
+  },
+  //网站
+  age: {
+    url: ""
+  },
+  dm84: {
+    url: ""
+  },
+  aowu: {
+    url: ""
+  },
+  muou: {
+    url: ""
+  },
+  wogg: {
+    url: ""
+  },
+  czzy: {
+    url: "",
+    username: "",
+    password: ""
+  },
+  xfys: {
+    url: ""
+  },
+  lbpp: {
+    url: ""
+  },
+  misou: {
+    url: ""
+  },
+  xiaomi: {
+    url: ""
+  },
+  xiaoer: {
+    url: ""
+  },
+  jinpai: {
+    url: ""
   },
   leijing: {
     url: ""
   },
-  duoduo: {
+  //comic
+  bengou: {
     url: ""
   },
-  panta: {
+  baozimh: {
     url: ""
   },
-  zhizhen: {
+  copymanga: {
     url: ""
   },
-  ttian: {
-    url: ""
+  //tg
+  tgsou: {
+    url: "",
+    count: 0,
+    pic: false,
+    channelUsername: ""
   },
-  czzy: {
-    url: "https://www.czzy77.com"
+  tgchannel: {
+    url: "https://tg.gendago.cc",
+    count: 4,
+    channelUsername: "",
+    homeChannelUsername: ""
   },
-  cm: {
-    url: "https://tv.yydsys.top"
-  },
-  libvio: {
-    url: "https://libvio.app/"
-  },
-  xzys: {
-    url: "https://xzys.fun"
-  },
-  yiso: {
-    url: "https://yiso.fun",
-    cookie: "__51vcke__JkIGvjjs25ETn0wz=279cdece-38ce-5256-b594-32f9f47e2bbd; __51vuft__JkIGvjjs25ETn0wz=1710318927617; satoken=49c9e954-78bd-4695-9954-ad3c1798ae6f; __51uvsct__JkIGvjjs25ETn0wz=36; __vtins__JkIGvjjs25ETn0wz=%7B%22sid%22%3A%20%22164c8224-7312-51a1-b9ec-2bbc8ee14ca4%22%2C%20%22vd%22%3A%202%2C%20%22stt%22%3A%20625365%2C%20%22dr%22%3A%20625365%2C%20%22expires%22%3A%201719035615461%2C%20%22ct%22%3A%201719033815461%7D; cf_clearance=3ot9BuJJP5EwIXD3Cpr7k5Jd7cuvvAWCO5io2oWIOkw-1719033817-1.0.1.1-gsYAae60t4jJ3vZTObvWxwH1H1NBcYiQ3PXYhWz5tITgYHYmTaX2jmkSvqIo5xP.VzyHJe327fQGc3rfUPGk4w"
-  },
-  bili: {
-    categories: "经典无损音乐合集#帕梅拉#太极拳#健身#舞蹈#音乐#歌曲#MV4K#演唱会4K#白噪音4K#知名UP主#说案#解说#演讲#时事#探索发现超清#纪录片超清#沙雕动画#沙雕穿越#沙雕#平面设计教学#软件教程#实用教程#旅游#风景4K#食谱#美食超清#搞笑#球星#动物世界超清#相声小品#戏曲#儿童#小姐姐4K#热门#旅行探险",
-    cookie: "buvid3=2EE7714E-396D-8B09-96FE-3D18B35CBD6E30391infoc; b_nut=1687691130; _uuid=6BEEEC104-35AF-A652-D66C-A61037EB9CCEF31032infoc; CURRENT_FNVAL=4048; rpdid=|(J~|~u~R||R0J'uY)~Ymm~~l; header_theme_version=CLOSE; fingerprint=979e0297d71b5da7d33048fd0f2105a6; buvid_fp_plain=undefined; buvid4=D599A569-8697-E141-B839-77A458D75A3432132-023062519-8ql5Wnsq%2BQ6f%2BEcmn2YT1A%3D%3D; enable_web_push=DISABLE; buvid_fp=979e0297d71b5da7d33048fd0f2105a6; hit-dyn-v2=1; home_feed_column=5; PVID=1; FEED_LIVE_VERSION=V_FAVOR_WATCH_LATER; browser_resolution=1599-821; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTA3NzMyNzAsImlhdCI6MTcxMDUxNDAxMCwicGx0IjotMX0.aGEuplXBVtg3SsfVeiC37aO4j-RBnnz67J4TzxtD3IA; bili_ticket_expires=1710773210; bp_video_offset_1679307957=909120323202318338; CURRENT_QUALITY=80; SESSDATA=0b9e2f11%2C1726068775%2Cbe3a3%2A32CjCp-4wRSorM2ubk-A5LfLd72V9iOeCfrTDWjUZmfmPKGxd4pKhcIKHbkJl4yXbibT8SVkF3TnhVSmtxb05ZU0N4Q05LdVA1MXdDX3ZHNDdrT1hkU3FDY3dHYUFEQURuc0w4U1RzanZ2RXJvOXVQaFRrMUV5VjJBVlJSWmI3VWo5aUx6eUczcDR3IIEC; bili_jct=21a583be26b77f6f990df8cd4563eb0d; DedeUserID=3546647141288212; DedeUserID__ckMd5=6d38879780c538a1; b_lsid=FA49D8A5_18E4C7DD168"
-  },
-  pans: {
-    list: []
-  },
+  //alist
   alist: [
     {
-      name: "🐉神族九帝",
-      server: "https://alist.shenzjd.com"
+      "name": "短剧",
+      "sort": true,
+      "server": "https://cdn.modupan.com/"
     },
     {
-      name: "💢repl",
-      server: "https://ali.liucn.repl.co"
+      "name": "星梦",
+      "server": "https://pan.bashroot.top"
+    },
+    {
+      "name": "丫仙女",
+      "server": "http://localhost:5244",
+      "startPage": "/",
+      "showAll": false,
+      "sort": true,
+      "login": {
+        "username": "admin",
+        "password": "pass"
+      },
+      "params": {
+        "/abc": {
+          "password": "123"
+        },
+        "/abc/abc": {
+          "password": "123"
+        }
+      }
     }
   ],
+  //sites
+  sites: {
+    "list": [
+      {
+        "key": "nodejs_douban",
+        "name": "豆瓣",
+        "enable": true
+      },
+      {
+        "key": "nodejs_modou",
+        "name": "豆瓣",
+        "enable": false
+      },
+      {
+        "key": "nodejs_newdb",
+        "name": "豆豆",
+        "enable": true
+      },
+      {
+        "key": "nodejs_wogg",
+        "name": "玩偶",
+        "enable": true
+      },
+      {
+        "key": "nodejs_xiaoer",
+        "name": "小二",
+        "enable": true
+      },
+      {
+        "key": "nodejs_xiaomi",
+        "name": "小米",
+        "enable": true
+      },
+      {
+        "key": "nodejs_lbpp",
+        "name": "蜡笔",
+        "enable": true
+      },
+      {
+        "key": "nodejs_duoduo",
+        "name": "多多",
+        "enable": true
+      },
+      {
+        "key": "nodejs_dawo",
+        "name": "大偶",
+        "enable": true
+      },
+      {
+        "key": "nodejs_qyys",
+        "name": "清影",
+        "enable": true
+      },
+      {
+        "key": "nodejs_muou",
+        "name": "木偶",
+        "enable": true
+      },
+      {
+        "key": "nodejs_xpg",
+        "name": "苹果",
+        "enable": true
+      },
+      {
+        "key": "nodejs_age",
+        "name": "AGE",
+        "enable": true
+      },
+      {
+        "key": "nodejs_dm84",
+        "name": "巴士",
+        "enable": true
+      },
+      {
+        "key": "nodejs_aowu",
+        "name": "嗷呜",
+        "enable": true
+      },
+      {
+        "key": "nodejs_ttian",
+        "name": "天天",
+        "enable": true
+      },
+      {
+        "key": "nodejs_gzys",
+        "name": "瓜子",
+        "enable": true
+      },
+      {
+        "key": "nodejs_jinpai",
+        "name": "金牌",
+        "enable": true
+      },
+      {
+        "key": "nodejs_xfys",
+        "name": "稀饭",
+        "enable": true
+      },
+      {
+        "key": "nodejs_czzy",
+        "name": "厂长",
+        "enable": true
+      },
+      {
+        "key": "nodejs_leijing",
+        "name": "雷鲸",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panta",
+        "name": "盘Ta",
+        "enable": true
+      },
+      {
+        "key": "nodejs_qupan",
+        "name": "趣盘",
+        "enable": true
+      },
+      {
+        "key": "nodejs_misou",
+        "name": "米搜",
+        "enable": true
+      },
+      {
+        "key": "nodejs_tgsou",
+        "name": "tg搜",
+        "enable": true
+      },
+      {
+        "key": "nodejs_tgchannel",
+        "name": "频道",
+        "enable": true
+      },
+      {
+        "key": "nodejs_baseset",
+        "name": "配置",
+        "enable": true
+      }
+    ]
+  },
+  //主题
   color: [
     {
       light: {
